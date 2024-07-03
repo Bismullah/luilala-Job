@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../src/assets/logo.png";
+import logo from "../assets/logo.png";
 export default function Logo() {
   return (
     <div className="company-logo flex items-center justify-center">
@@ -9,3 +9,4 @@ export default function Logo() {
     </div>
   );
 }
+ 
