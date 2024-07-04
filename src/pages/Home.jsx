@@ -1,10 +1,14 @@
 import Header from "../components/Header";
 import newStar from '../assets/newStar.png';
+import MostRecentjob from "../components/JobListHeader";
+import JobListHeader from "../components/JobListHeader";
+import JobFilter from "../components/JobFilter";
+import JobListing from "../components/JobCard";
 
 function Home() {
   return (
-    
-     <div className="bg-[#13314a] py-8">
+    <>
+     <div className="bg-[#112c43] py-8">
      <div className="container mx-auto px-4">
        <div className="text-center flex  items-center ">
          <h1 className="text-4xl font-bold text-white">Find Your Dream Job</h1>
@@ -47,7 +51,12 @@ function Home() {
        </div>
      </div>
    </div>
+     <JobListHeader />
+     {/* <JobFilter /> */}
+     <JobListing />
 
+
+             </>
   );
 }
 
