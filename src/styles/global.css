@@ -121,4 +121,23 @@
   .active-nav-link:hover::after {
     width: 0;
   }
+
+  /* customStyles.css */
+
+.custom-tabs {
+  margin-bottom: 1.5rem;
+  color: #ffffff; /* Accent Color */
+}
+
+.custom-tab-item {
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.custom-tab-item-active {
+  border-color: #ffffff; /* Accent Color */
+  color: #ffffff; /* Accent Color */
+}
+
   

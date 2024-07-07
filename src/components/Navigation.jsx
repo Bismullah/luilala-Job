@@ -35,7 +35,7 @@ export default function Navigation() {
               >
                 <Link
                   to={item.path}
-                  className={`text-gray-300 hover:text-white transition-colors duration-100 ${
+                  className={`text-[#FFFFFF] hover:text-[#4682B4] transition-colors duration-100 ${
                     location.pathname === item.path
                       ? 'active-nav-link'
                       : ''
