@@ -1,5 +1,5 @@
 import React from 'react';
-import CvImage from '../assets/cv4.png';
+import cv4 from '../assets/cv4.png';
 
 const RegisterCv = () => {
   return (
@@ -15,7 +15,7 @@ const RegisterCv = () => {
             Register
           </button>
         <div className="md:w-1/4 flex justify-center">
-          <img src={CvImage} alt="CV" className="w-[150px] rounded-md shadow-md" />
+          <img src={cv4} alt="CV" className="w-[150px] rounded-md shadow-md" />
         </div>
       </div>
     </div>

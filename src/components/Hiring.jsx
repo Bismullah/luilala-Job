@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactSwipeableViews from 'react-swipeable-views';
-import logoHiring from '../assets/logo5.png';
+import logo5 from '../assets/logo5.png';
 import Carousel from '../pages/Carousel';
 
 
@@ -9,7 +9,7 @@ const Hiring = () => {
     <div className="bg-white shadow-md p-12 mt-12 flex items-center justify-center gap-x-12 rounded-lg overflow-hidden">
   <div className="md:flex md:w-1/3 flex-col  items-center justify-center rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
   <div className="md:w-1/4 image_part">
-    <img src={logoHiring} alt="" className="w-full h-24 object-cover rounded-t-lg" />
+    <img src={logo5} alt="" className="w-full h-24 object-cover rounded-t-lg" />
   </div>
   <div className="md:w-full flex flex-col items-center text-center text_part p-6 bg-white rounded-b-lg">
     <h1 className="text-2xl text-center font-bold mb-4">Hiring Company</h1>

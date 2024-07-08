@@ -1,5 +1,5 @@
 import React from 'react';
-import RecurstingImage from '../assets/recursting1.png';
+import recursting1 from '../assets/recursting1.png';
 
 const Recursting = () => {
   return (
@@ -16,7 +16,7 @@ const Recursting = () => {
             Start Recruiting Now
           </button>
         <div className="md:w-1/4 flex justify-center">
-          <img src={RecurstingImage} alt="CV" className="w-[2000px] rounded-md " />
+          <img src={recursting1} alt="CV" className="w-[2000px] rounded-md " />
         </div>
       </div>
     </div>

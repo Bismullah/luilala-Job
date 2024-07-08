@@ -1,6 +1,6 @@
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import CompanyLogo from '../assets/logo.png';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center">
           <Link to="/" className="text-white">
-            <img className='w-[150px] h-[150px]' src={CompanyLogo} alt="" />
+            <img className='w-[150px] h-[150px]' src={logo} alt="" />
           </Link>
             <p className="text-white">Lui lala</p>
             <p className="text-white">Online jobs</p>
