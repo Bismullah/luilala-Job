@@ -12,9 +12,9 @@ function Hero() {
 
   return (
     <div className="bg-gradient-to-r from-[#002244] to-[#4682B4] h-auto py-8 pb-16">
-      <div className="container mx-auto px-4">
+      <div className="container mt-8 mx-auto px-4">
         <div className="text-center flex items-center">
-          <h1 className="text-4xl font-bold text-white">Find Your Dream Job</h1>
+          <h1 className="text-4xl  font-bold text-white">Find Your Dream Job</h1>
           <img
             className="mx-8 mt-4 w-16 h-16"
             loading="lazy"
