@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactSwipeableViews from 'react-swipeable-views';
+
 import logo5 from '../assets/logo5.png';
 import Carousel from '../pages/Carousel';
 
