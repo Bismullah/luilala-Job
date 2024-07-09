@@ -7,7 +7,7 @@ export default function Navigation() {
   const location = useLocation();
 
   const navItems = [
-    { path: '/applyjob', label: 'Apply Job' },
+    { path: '/searchjob', label: 'Search Job' },
     { path: '/cvbuilder', label: 'CV Builder' },
     { path: '/jobalerts', label: 'Job Alerts' },
     { path: '/courses', label: 'Courses' },

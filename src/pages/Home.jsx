@@ -15,7 +15,7 @@ export default function Home(){
      <RegisterCv />
      <MobileAdvertisement />
      <Recursting />
-     <Footer />
+   
     </div>
   );
 }
