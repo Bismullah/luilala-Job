@@ -139,5 +139,14 @@
   border-color: #ffffff; /* Accent Color */
   color: #ffffff; /* Accent Color */
 }
+.container_Home_courses{
+  background-image: url(../assets/bgImagecourses.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
 
   

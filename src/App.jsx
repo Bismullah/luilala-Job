@@ -12,6 +12,9 @@ import CareerAdvice from './pages/CareerAdvice';
 import NoPage from './pages/NoPage';
 import Footer from './components/Footer';
 import CVEditor from './components/CVEditor';
+import CoursesHome from './components/CoursesHome';
+import OnlineCourse from './components/OnlineCourse';
+import Stafftraining from './components/Stafftraining';
 
 function App() {
   return (
@@ -21,10 +24,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route index element={<Home />} />
         <Route path="/searchjob" element={<SearchJob />} />
+        <Route path="/courseshome" element={<CoursesHome />} />
+        <Route path="/onlinecourses" element={<OnlineCourse />} />
+        <Route path="/stafftraining" element={<Stafftraining />} />
         <Route path="/jobdetails" element={<JobDetails />} />
         <Route path="/cvbuilder" element={<CvBuilder />} />
         <Route path="/jobalerts" element={<JobAlerts />} />
-        <Route path="/courses" element={<Courses />} />
+        <Route path="/courses" element={<CoursesHome />} />
         <Route path="/company" element={<CVEditor />} />
         <Route path="/careeradvice" element={<CareerAdvice />} />
         <Route path="*" element={<NoPage />} />
