@@ -42,6 +42,10 @@ const reviewData = [
 
 export default function Rating() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const  [studentCount, setStudentCount] = useState(0);
+  const [BookCount, setBookCount] = useState(0);
+  const [Lessons,setLessons ]=useState(0);
+
 
   const handlePrevClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + reviewData.length) % reviewData.length);

@@ -10,6 +10,7 @@ module.exports = {
         'light-blue': '#4682B4',
         'accent-white': '#FFFFFF',
       },
+      
     },
   },
   plugins: [],

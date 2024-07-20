@@ -149,4 +149,93 @@
 }
 
 
-  
+  /* App.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+}
+
+.category-list {
+  width: 25%;
+  margin-right: 20px;
+}
+
+.category-list h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.category-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-list li {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.category-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.course-list {
+  width: 75%;
+}
+
+.category-section {
+  margin-bottom: 20px;
+}
+
+.category-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.course-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-list li {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container-advice{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 4rem;
+}
+.first-adivce-card img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.clip-path-mypolygon {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}

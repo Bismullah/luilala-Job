@@ -9,25 +9,25 @@ const data = [
   {
     url: 'https://media.istockphoto.com/id/1646501115/photo/closeup-young-asian-man-software-developers-mentor-leader-manager-talking-to-executive-team.jpg?s=612x612&w=0&k=20&c=ptnmnG6PFnI8DT5mjVZnycf0FIzmoL0WKpWq5MKR0U8=',
     coursesCount: '45',
-    name:"Acountancy"
+    name:"Web development"
     
   },
   {
     url: 'https://media.istockphoto.com/id/1198252560/photo/female-professional-student-using-laptop-at-desk-close-up-view.jpg?s=612x612&w=0&k=20&c=xhcvdrIkduTP9qRjozHG8X0QGXTV3S38aIVN6_rdj3U=',
     coursesCount: '32',
-    name:"Acountancy"
+    name:"Buisness"
     
   },
   {
     url: 'https://media.istockphoto.com/id/1219804075/photo/webinar-services-presentation-and-infographics.jpg?s=612x612&w=0&k=20&c=j3L9A5rlcy1sAg8Ze8y9jt3ve1choaxG-yXMo8z-2Ss=',
     coursesCount: '60',
-    name:"Acountancy"
+    name:"sychlology"
     
   },
   {
     url: 'https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW1hZ2UlMjBmb3IlMjBvbmxpbmUlMjBjb3Vyc2UlMjB3ZWJzaXRlfGVufDB8fDB8fHww',
     coursesCount: '28',
-    name:"Acountancy"
+    name:"Network fundmentals"
     
   },
   {
@@ -51,7 +51,7 @@ const data = [
   {
     url: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGltYWdlJTIwZm9yJTIwb25saW5lJTIwY291cnNlJTIwd2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D',
     coursesCount: '52',
-    name:"Acountancy"
+    name:"wafadar"
     
   },
   {
