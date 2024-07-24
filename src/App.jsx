@@ -39,6 +39,7 @@ function App() {
         <Route path="/stafftraining" element={<Stafftraining />} />
         <Route path="/jobdetails" element={<JobDetails />} />
         <Route path="/cvbuilder" element={<CvBuilder />} />
+        <Route path='/cveditor'   element={<CVEditor />} />
         <Route path="/jobalerts" element={<JobAlerts />} />
         <Route path="/courses" element={<CoursesHome />} />
         <Route path="/company" element={<Company />} />

@@ -1,7 +1,13 @@
 import React from 'react';
 import cvBuilder1 from '../assets/cvbuilder2.jpg';
+import { useNavigate } from 'react-router-dom';
 
 export default function CreateCv() {
+  const navigate=useNavigate();
+
+  const handleClick=()=>{
+    navigate('/cveditor')
+  }
   return (
     
     <>
@@ -16,7 +22,7 @@ export default function CreateCv() {
           <div className="text-contents w-1/2 pr-8">
             <h1 className=" font-bold text-6xl text-white mb-4">Free CV Builder</h1>
             <p className="text-gray-300 text-2xl  mb-8">Need a CV? Create your own on the go and start applying to jobs in minutes.</p>
-            <button className="bg-light-blue hover:bg-blue-400 text-white  font-semibold py-3 px-6 rounded-md transition-colors duration-300">
+            <button onClick={handleClick}  className="bg-light-blue hover:bg-blue-400 text-white  font-semibold py-3 px-6 rounded-md transition-colors duration-300">
               Build my CV
             </button>
           </div>
