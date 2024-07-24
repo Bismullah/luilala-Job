@@ -41,7 +41,7 @@ function App() {
         <Route path="/cvbuilder" element={<CvBuilder />} />
         <Route path="/jobalerts" element={<JobAlerts />} />
         <Route path="/courses" element={<CoursesHome />} />
-        <Route path="/company" element={<CVEditor />} />
+        <Route path="/company" element={<Company />} />
         <Route path="/carrerAdvice/Apprenthiceship" element={<Apprenthiceship />} />
         <Route path="/carrerAdvice/carrerDevelopment" element={<CarrerDevelopment />} />
         <Route path="/carrerAdvice/graduates" element={<Graduates />} />

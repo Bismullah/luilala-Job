@@ -37,18 +37,6 @@ const AllCourses = () => {
     return selectedCategory ? { [selectedCategory]: coursesData[selectedCategory] } : coursesData;
   };
   
-  useEffect(() => {
-    const handleScroll = () => {
-      if (headerRef.current) {
-        setIsSticky(headerRef.current.getBoundingClientRect().top <= 0);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
     <div>
