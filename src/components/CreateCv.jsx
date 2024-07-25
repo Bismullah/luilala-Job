@@ -11,9 +11,8 @@ export default function CreateCv() {
   return (
     
     <>
-    <div className="bg-white w-full px-6 py-2 rounded-md mb-4">
-          <p className="text-slate-500 text-lg">Search 156,089 jobs from 10,070 companies</p>
-        </div>
+          <p className="text-slate-100  text-center  bg-[#002244] text-lg">Search 156,089 jobs from 10,070 companies</p>
+
     <div className="bg-gradient-to-r from-[#002244] to-[#4682B4] py-12">
       <div className="container mx-auto">
         

@@ -31,7 +31,7 @@ const Card = ({ image, title, subTitle, jobTitles, location }) => {
 
 const CardContainer = ({ cardData }) => {
   return (
-    <div className="container mx-auto my-8">
+    <div className="container mx-auto px-8 my-8">
         <p className="text-3xl text-[#002244] mb-8">Popular industries</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
         {cardData.map((card, index) => (

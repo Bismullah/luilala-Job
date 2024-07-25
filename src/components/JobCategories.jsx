@@ -42,7 +42,7 @@ const JobCategories = () => {
   ];
 
   return (
-    <div className="bg-gray-100 py-8">
+    <div className="bg-gray-100 px-6 py-8">
       <div className="container mx-auto">
         <h2 className="text-2xl font-bold mb-4">Browse Jobs</h2>
         {jobCategories.map((category, index) => (

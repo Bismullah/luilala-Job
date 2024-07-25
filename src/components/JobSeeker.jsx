@@ -46,7 +46,7 @@ const JobSeeker = () => {
     <div className="card relative">
       <div className="image-container  p-12">
         <img src={testimonials[currentIndex].image} alt="" className={`rounded-t-lg  h-[50vh] w-[50vw] mx-auto `}/>
-        <p className={`text-gray-800 absolute   ${testimonials[currentIndex].image===FourthImage ||testimonials[currentIndex].image===ThirdImage ?'right-6 pt-16 text-xl':'left-12 pt-12  text-3xl ' } top-6  px-64 pb-16 text-white  h-[50vh] w-[50vw] mx-auto`}>{testimonials[currentIndex].text}</p>
+        <p className={`text-gray-800 absolute   ${testimonials[currentIndex].image===FourthImage ||testimonials[currentIndex].image===ThirdImage ?'right-16 pt-12 text-lg':'left-12 pt-12  text-xl ' } top-6  px-64 pb-16 text-white  h-[50vh] w-[50vw] mx-auto`}>{testimonials[currentIndex].text}</p>
       </div>
       
     </div>

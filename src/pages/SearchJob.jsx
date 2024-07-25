@@ -95,7 +95,7 @@ const cardData = [
 export default function SearchJob() {
     return (
         <div>
-         <p>Search 156,089 jobs from 10,070 companies</p>
+         <p  className="text-gray-200 py-1 text-sm bg-[#002244] text-center font-medium" >Search 156,089 jobs from 10,070 companies</p>
          <Searchbar />
          <CarouselCards />
          <CardContainer cardData={cardData}  />

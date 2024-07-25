@@ -11,8 +11,8 @@ function Hero() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-[#002244] to-[#4682B4] h-auto py-8 pb-16">
-      <div className="container mt-8 mx-auto px-4">
+    <div className="bg-gradient-to-r from-[#002244] to-[#4682B4] h-auto px-6 py-8 pb-16">
+      <div className="container mt-8 mx-auto px-8">
         <div className="text-center flex items-center">
           <h1 className="text-4xl  font-bold text-white">Find Your Dream Job</h1>
           <img

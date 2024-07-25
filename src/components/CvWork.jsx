@@ -3,7 +3,7 @@ import CvImage from '../assets/cvVedio.png';
 export default function() {
   return (
     <div>
-      <div className="cvWork bg-gray-100 py-16">
+      <div className="cvWork px-8 bg-gray-100 py-16">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className=" grid grid-cols-2 gap-y-4 mr-8 text-center md:text-left">
             <div className="mb-8">
