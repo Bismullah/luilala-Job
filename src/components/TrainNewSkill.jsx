@@ -2,12 +2,12 @@ import React from 'react';
 import { FaCheckCircle, FaUserGraduate, FaMobileAlt, FaClipboardCheck, FaQuestionCircle, FaClipboard } from 'react-icons/fa';
 
 const FeatureCard = ({ icon, title, description }) => (
-  <div className="bg-white shadow-md rounded-lg p-6">
+  <div className="bg-white shadow-md rounded-lg p-6 flex flex-col">
     <div className="flex items-center mb-4">
       {icon}
       <h3 className="text-lg font-bold ml-3">{title}</h3>
     </div>
-    <p>{description}</p>
+    <p className="text-gray-700">{description}</p>
   </div>
 );
 
@@ -46,9 +46,9 @@ const TrainNewSkill = () => {
   ];
 
   return (
-    <div className=' p-16 mx-auto'>
-      <h1 className="text-3xl font-bold mb-8">Why You Should Train With New Skills Academy…</h1>
-      <div className="grid grid-cols-3 gap-8">
+    <div className='p-8 mx-auto max-w-screen-xl'>
+      <h1 className="text-3xl font-bold mb-8 text-center">Why You Should Train With New Skills Academy…</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map((feature, index) => (
           <FeatureCard
             key={index}

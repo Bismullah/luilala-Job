@@ -4,85 +4,33 @@ import { Link, useLocation } from 'react-router-dom';
 function CareerAdviceLinks() {
   const location = useLocation();
 
-  const isActive = (path) => {
-    return location.pathname === path;
-  };
+  const isActive = (path) => location.pathname === path;
 
   return (
-    <div className="flex justify-center border-y-2 border-gray-200 py-7 space-x-4 mb-8">
-        <Link
-        to="/careeradvice"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/careeradvice') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        Home
-      </Link>
-      <Link
-        to="/carrerAdvice/Apprenthiceship"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/carrerAdvice/Apprenthiceship') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        Apprenthiceship
-      </Link>
-      <Link
-        to="/carrerAdvice/carrerDevelopment"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/carrerAdvice/carrerDevelopment') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        Carrer Development
-      </Link>
-      <Link
-        to="/carrerAdvice/graduates"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/carrerAdvice/graduates') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        Graduates
-      </Link>
-      <Link
-        to="/carrerAdvice/coverLater"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/carrerAdvice/coverLater') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        Cover Later
-      </Link>
-      <Link
-        to="/carrerAdvice/GettingStarted"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/carrerAdvice/GettingStarted') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        Getting Started
-      </Link>
-      <Link
-        to="/carrerAdvice/worklife"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/carrerAdvice/worklife') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        Work life
-      </Link>
-      <Link
-        to="/carrerAdvice/cvs"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/carrerAdvice/cvs') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        CVs
-      </Link>
-      <Link
-        to="/carrerAdvice/Interviews"
-        className={`text-gray-500 hover:bg-[#002244] hover:text-white font-medium px-2 py-2 rounded transition-colors duration-300 ${
-          isActive('/carrerAdvice/Interviews') ? 'text-white bg-[#002244] font-semibold' : ''
-        }`}
-      >
-        Interviews
-      </Link>
-  
+    <div className="bg-white border-y-2  border-gray-200 py-3 mb-8  md:px-0">
+      <div className="flex overflow-x-auto mx-auto w-full px-32 scroll-hidden py-5">
+        {[
+          { to: "/careeradvice", label: "Home" },
+          { to: "/carrerAdvice/Apprenthiceship", label: "Apprenticeship" },
+          { to: "/carrerAdvice/carrerDevelopment", label: "Career Development" },
+          { to: "/carrerAdvice/graduates", label: "Graduates" },
+          { to: "/carrerAdvice/coverLater", label: "Cover Letter" },
+          { to: "/carrerAdvice/GettingStarted", label: "Getting Started" },
+          { to: "/carrerAdvice/worklife", label: "Work Life" },
+          { to: "/carrerAdvice/cvs", label: "CVs" },
+          { to: "/carrerAdvice/Interviews", label: "Interviews" },
+        ].map(({ to, label }) => (
+          <Link
+            key={to}
+            to={to}
+            className={`text-gray-500 text-nowrap hover:bg-[#002244] hover:text-white font-medium px-4 mx-3 py-2 rounded transition-colors duration-300 max-w-sm ${
+              isActive(to) ? 'text-white bg-[#002244] font-semibold' : ''
+            }`}
+          >
+            {label}
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

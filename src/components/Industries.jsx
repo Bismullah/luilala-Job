@@ -45,7 +45,7 @@ const Industries = () => {
       <h1 className=" text-[#002244] py-5 text-center text-2xl font-bold">
         Industries
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-14">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 p-14">
         {industries.map((industry, index) => (
           <a
             href="#"

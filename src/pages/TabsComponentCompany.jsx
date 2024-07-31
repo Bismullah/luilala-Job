@@ -44,32 +44,32 @@ const TabsComponentCompany = () => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg p-6 max-w-6xl my-8">
-      <div className="mb-6">
-        <ul className="flex border-b border-gray-300">
-          {companyData.map((tab) => (
-            <li
-              key={tab.type}
-              className={`cursor-pointer px-4 py-2 rounded-t-lg ${
-                activeTab === tab.type
-                  ? 'bg-gradient-to-r from-[#002244] to-[#4682B4] text-white'
-                  : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
-              }`}
-              onClick={() => handleTabClick(tab.type)}
-            >
-              <h3 className="text-lg font-medium capitalize">{tab.type} agencies</h3>
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div className="mt-6 grid grid-cols-4 gap-4">
-        {companyData.find((tab) => tab.type === activeTab).companies.map((company, index) => (
-          <div key={index} className="bg-gray-100 rounded-md px-4 py-2 hover:bg-gray-200 cursor-pointer">
-            {company}
-          </div>
+    <div className="bg-white shadow-md rounded-lg p-6 max-w-6xl my-8 mx-4 sm:mx-auto">
+    <div className="mb-6">
+      <ul className="flex border-b border-gray-300 overflow-x-auto">
+        {companyData.map((tab) => (
+          <li
+            key={tab.type}
+            className={`cursor-pointer px-4 py-2 rounded-t-lg whitespace-nowrap ${
+              activeTab === tab.type
+                ? 'bg-gradient-to-r from-[#002244] to-[#4682B4] text-white'
+                : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+            }`}
+            onClick={() => handleTabClick(tab.type)}
+          >
+            <h3 className="text-lg font-medium capitalize">{tab.type} agencies</h3>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
+    <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      {companyData.find((tab) => tab.type === activeTab).companies.map((company, index) => (
+        <div key={index} className="bg-gray-100 rounded-md px-4 py-2 hover:bg-gray-200 cursor-pointer">
+          {company}
+        </div>
+      ))}
+    </div>
+  </div>
   );
 };
 

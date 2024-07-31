@@ -36,14 +36,13 @@ const AllCourses = () => {
     }
     return selectedCategory ? { [selectedCategory]: coursesData[selectedCategory] } : coursesData;
   };
-  
 
   return (
     <div>
-      <div className="bg-white shadow-lg rounded-lg p-6 sticky top-0 z-10">
-        <div className="flex items-center justify-between w-full">
-          <h1 className="text-4xl font-bold text-gray-800">Courses</h1>
-          <div className="relative flex items-center w-full max-w-xl mr-16">
+      <div className="bg-white shadow-lg rounded-lg p-6 z-10 lg:p-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between w-full">
+          <h1 className="text-4xl font-bold text-gray-800 mb-6 lg:mb-0">Courses</h1>
+          <div className="relative flex items-center w-full max-w-xl">
             <input
               type="search"
               className="bg-gray-100 border-gray-300 px-12 pr-12 rounded-full py-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-full"
@@ -68,7 +67,7 @@ const AllCourses = () => {
               </svg>
             </span>
           </div>
-          <select className="bg-gray-100 rounded-full border-gray-300 px-8 py-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ml-4">
+          <select className="bg-gray-100 rounded-full border-gray-300 px-8 py-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent mt-4 lg:mt-0 lg:ml-4">
             <option value="">Popular course</option>
             <option value="">Release Date</option>
             <option value="">Name A-Z</option>
@@ -81,22 +80,31 @@ const AllCourses = () => {
         </div>
       </div>
       <ContentContainer>
-        <div className="app-container p-12">
-          <CategoryList categories={Object.keys(coursesData)} onSelectCategory={handleCategorySelect} />
-          <CourseList courses={filteredCourses()} />
+        <div className="app-container p-12 lg:px-20 lg:py-16">
+          <div className="flex flex-col lg:flex-row">
+            <CategoryList
+              categories={Object.keys(coursesData)}
+              onSelectCategory={handleCategorySelect}
+              className="mb-8 lg:mb-0 lg:w-1/4 lg:mr-8"
+            />
+            <CourseList courses={filteredCourses()} className="lg:w-3/4" />
+          </div>
         </div>
       </ContentContainer>
-      
     </div>
   );
 };
 
-const CategoryList = ({ categories, onSelectCategory }) => (
-  <div className="category-list">
-    <h2>Categories</h2>
+const CategoryList = ({ categories, onSelectCategory, className }) => (
+  <div className={`category-list ${className}`}>
+    <h2 className="text-2xl font-bold text-gray-800 mb-4">Categories</h2>
     <ul>
       {categories.map((category) => (
-        <li key={category} onClick={() => onSelectCategory(category)}>
+        <li
+          key={category}
+          onClick={() => onSelectCategory(category)}
+          className="text-gray-700 hover:text-gray-900 cursor-pointer mb-2"
+        >
           {category}
         </li>
       ))}
@@ -104,14 +112,16 @@ const CategoryList = ({ categories, onSelectCategory }) => (
   </div>
 );
 
-const CourseList = ({ courses }) => (
-  <div className="course-list">
+const CourseList = ({ courses, className }) => (
+  <div className={`course-list ${className}`}>
     {Object.keys(courses).map((category) => (
-      <div key={category} className="category-section">
-        <h2>{category}</h2>
+      <div key={category} className="category-section mb-8">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">{category}</h2>
         <ul>
           {courses[category].map((course) => (
-            <li key={course}>{course}</li>
+            <li key={course} className="text-gray-700 hover:text-gray-900 mb-2">
+              {course}
+            </li>
           ))}
         </ul>
       </div>
