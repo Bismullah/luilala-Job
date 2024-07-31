@@ -1,7 +1,7 @@
 export default function CarrerDevelopmentCourses(){
 return (
     <>
-    <div className="container-advice grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className=" grid grid-cols-1 md:grid-cols-2 p-8 items-center justify-center lg:grid-cols-3 gap-8">
   {/* <!-- first --> */}
   <div className="first-adivce-card relative">
     <img className="clip-path-mypolygon" src="https://media.istockphoto.com/id/1214111410/photo/in-technology-research-facility-chief-engineer-stands-in-the-middle-of-the-lab-and-uses.jpg?s=612x612&w=0&k=20&c=pwpzBFjUwWevuKmOfRsqbzbwwOG8eESG7_6I5zCudis=" />

@@ -5,7 +5,7 @@ export default function ApprenthiceshipCourses() {
     <>
     
       
-    <div class="container-advice container gap-8">
+    <div class="flex md:flex-row flex-col p-8 sm:p-12 container gap-8">
   {/* <!-- first --> */}
   <div class="first-adivce-card relative">
     <img src="https://media.istockphoto.com/id/1214111410/photo/in-technology-research-facility-chief-engineer-stands-in-the-middle-of-the-lab-and-uses.jpg?s=612x612&w=0&k=20&c=pwpzBFjUwWevuKmOfRsqbzbwwOG8eESG7_6I5zCudis=" />

@@ -10,7 +10,7 @@ export default function HomeAdvice() {
           description="Our advice centre contains articles with helpful tips, how-to guides and CV templates. Written by career experts, were committed to helping your job search and ensuring you get the most from your career."
         />
 
-        <div className="container-advice grid grid-cols-1 md:grid-cols-2 container gap-8">
+        <div className=" flex flex-col md:flex-row  container gap-8">
           {/* <!-- first --> */}
           <div className="first-adivce-card relative">
             <img
@@ -26,6 +26,7 @@ export default function HomeAdvice() {
 
           {/* <!-- second --> */}
           <div className="two_image grid grid-cols-1 sm:grid-cols-2 gap-8">
+           
             <div className="relative">
               <img
                 src="https://media.istockphoto.com/id/2005694683/photo/checking-and-inspecting-metal-machine-part-items-for-shipping-male-and-woman-worker-checking.jpg?s=612x612&w=0&k=20&c=8vwEqA8abT5mF7-mS55b_eNeJYmfPriMjLEf_hF0qRQ="
@@ -39,6 +40,7 @@ export default function HomeAdvice() {
                 </a>
               </div>
             </div>
+
             <div className="relative">
               <img
                 src="https://media.istockphoto.com/id/1198042412/photo/male-supervisor-at-a-manufacturing-factory-talking-to-female-employee-at-the-production-line.jpg?s=612x612&w=0&k=20&c=xboPES80NaevEF8IrpTKT48aGjVsAqTj1t-QMlFPCXo="
@@ -52,8 +54,10 @@ export default function HomeAdvice() {
                 </a>
               </div>
             </div>
+
           </div>
         </div>
+ 
       </div>
       <CarrerHomeCourses />
     </>
