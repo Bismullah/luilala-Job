@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -22,31 +22,33 @@ const Header = () => {
       <HeaderWrapper>
         <Container>
           <LogoWrapper>
-            {/* {screenWidth < 1100 ? (
+            {screenWidth < 1000 ? (
               <MenuButton onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 {isMenuOpen ? <FaTimes /> : <FaBars />}
               </MenuButton>
-            ) : null} */}
+            ) : null}
             <Logo />
           </LogoWrapper>
-          <NavigationWrapper>
-            <Navigation />
-          </NavigationWrapper>
+          {screenWidth >= 1000 ? (
+            <NavigationWrapper>
+              <Navigation />
+            </NavigationWrapper>
+          ) : null}
           <UserDropDown />
         </Container>
       </HeaderWrapper>
-      {screenWidth < 1100 && (
+      {screenWidth < 1000 && (
         <MobileMenu className={isMenuOpen ? 'open' : ''}>
-      
-          <Navigation />
+          <CloseButton onClick={() => setIsMenuOpen(false)}>
+            <FaTimes />
+          </CloseButton>
+          <Navigation setMenuOpen={setIsMenuOpen} />
         </MobileMenu>
       )}
     </>
   );
 };
-    {/* <CloseButton onClick={() => setIsMenuOpen(false)}>
-            {/* <FaTimes /> */}
-          // {/* </CloseButton> */} */}
+
 export default Header;
 
 const HeaderWrapper = styled.header`
@@ -81,23 +83,24 @@ const MenuButton = styled.button`
 
 const NavigationWrapper = styled.nav`
   display: flex;
-  // flex-direction: column;
   justify-content: center;
   flex-grow: 1;
-  @media (max-width: 1100px) {
-    display: none;
-  }
 `;
 
 const MobileMenu = styled.div`
-
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(to right, #002244, #4682B4);
   z-index: 100;
   padding: 2rem;
   display: flex;
-    flex-direction: column;
+  opacity: 0.9;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   transform: translateX(-150%);
   transition: transform 0.3s ease-in-out;
 
@@ -110,8 +113,13 @@ const CloseButton = styled.button`
   background: none;
   border: none;
   color: #e0e0e0;
-  font-size: 1.5rem;
+   font-size: 2rem;
+  
   margin-bottom: 1rem;
   cursor: pointer;
   outline: none;
+  position: relative;
+  bottom: 20%;
+  z-index: 300;
+  left: 40%;
 `;
