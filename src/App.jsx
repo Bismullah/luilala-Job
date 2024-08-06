@@ -24,11 +24,13 @@ import GettingStarted from './CarrerAdvice/GettingStarted'
 import Interviews from './CarrerAdvice/Interviews'
 import WorkLife from './CarrerAdvice/WorkLife'
 import HomeAdvice from './CarrerAdvice/HomeAdvice';
+import LanguageSelector from './components/LanguageSelector';
 
 
 function App() {
   return (
     <BrowserRouter>
+       <LanguageSelector />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
