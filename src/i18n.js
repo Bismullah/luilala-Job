@@ -8,11 +8,95 @@ i18n
       "en": {
         "translation": {
           "S": "welcome",
+          
+          "advice": {
+            "seekingAdvice": "Seeking advice on applying to jobs?",
+            "helpfulTips": "Be sure to read our helpful tips and advice",
+            "profileWriting": "How to write a personal profile for your CV in 2022",
+            "cvLyingDangers": "The dangers of lying in your CV",
+            "cvRejectionTips": "6 effective tips to deal with CV rejection",
+            "hobbiesInterests": "What hobbies and interests should I add to my CV?"
+          },
+          "faq": {
+            "title": "CV Builder FAQs",
+            "freeUsage": "Can I use CV Builder for free?",
+            "freeUsageAnswer": "CV Builder is 100% free for all users. Simply visit  and get started today.",
+            "mobileUsage": "Can I build my CV from my smartphone?",
+            "mobileUsageAnswer": "Yes, you can use CV Builder from any device, including your PC, laptop, tablet or smartphone.",
+            "cvDelivery": "How is my CV sent to me?",
+            "cvDeliveryAnswer": "Once you've added all your details and you're happy with your CV, we will ask for your email address and your CV will be emailed to you in minutes.",
+            "cvFormat": "What format will my CV be in?",
+            "cvFormatAnswer": "Your CV will be emailed to you as a PDF.",
+            "editCV": "How do I edit my CV?",
+            "editCVAnswer": "Once you've completed your CV, we will automatically create a CV-Library account for you and your login details will be emailed to you. Simply login and edit your CV at any time. If you already have a CV-Library account your new CV will be added to it, for you to edit at any time.",
+            "deleteCV": "Can I delete my CV?",
+            "deleteCVAnswer": "Yes, once you've found your ideal job you may wish to remove your CV. You can do so by clicking and then logging into your CV-Library account. You will then be asked to enter your password again to authorise the deletion."
+          },
+          
+            "textfirst": "\"I've used many CV building sites, but this one is simple, clear and understandable.\""
+         ,
+          
+            "textsecond": "\"CV Builder helps give me an idea of the professional wording that a potential employer is looking for.\""
+         ,
+            "textthird": "\"CV Builder is brilliant! It's really great to use when you are stuck on what to say or feel stressed and overwhelmed about writing a CV.\""
+         ,
+            "textfourth": "\"CV Builder is great for when you don't know where to start and need some help. You are guaranteed to get a professional CV without doing it from scratch.\"",
+            "job_alerts": {
+              "title": "Never miss an opportunity with Job Alerts",
+              "description": "Stay on top of your job search and always be sure you are the first to know about new roles.",
+              "search_info": "Search 152,981 jobs from 10,117 companies",
+              "already_registered": "Already registered?",
+              "view_alerts": "View my Job Alerts",
+              "form": {
+                "title": "Create Job Alert",
+                "keywords": "Keywords/Job Title",
+                "location": "Location",
+                "email": "Email",
+                "placeholder": {
+                  "keywords": "e.g. Administrator",
+                  "location": "e.g. London",
+                  "email": "your@email.com"
+                },
+                "submit_button": "Create Job Alert",
+                "agreement": "By creating a job alert with CV-Library you agree to our Privacy Policy and Terms & Conditions"
+              },
+              "video_section": {
+                "title": "Great companies hiring on CV-Library"
+              },
+              "reasons": {
+                "title": "Why Setup Job Alerts?",
+                "reason1": {
+                  "title": "Get jobs straight to your email inbox",
+                  "description": "Keep up-to-date with the latest jobs matching your criteria."
+                },
+                "reason2": {
+                  "title": "Be the first to apply",
+                  "description": "Stay ahead of the competition and be the first to apply to jobs."
+                },
+                "reason3": {
+                  "title": "Quick & easy setup",
+                  "description": "It takes less than one minute to create a Job Alert."
+                },
+                "reason4": {
+                  "title": "Create up to 20 alerts",
+                  "description": "Create multiple alerts to receive the jobs you want."
+                }
+              }
+            },
+         
+       " I've used many CV building sites, but this one is simple, clear and understandabl":"I've used many CV building sites, but this one is simple, clear and understandable.",
           "Register": "Register",
           "Recruiting": "Recruiting?",
           "Search Job": "Search Job",
           "CV Builder": "CV Builder",
           "Job Alerts": "Job Alerts",
+          "buildCV": "Build your CV",
+          "customizeCV": "Customize your CV",
+          "previewCV": "Preview your CV",
+          "downloadCV": "Download your CV",
+          "mobileMessage": "on a mobile, tablet or desktop device",
+          "customizeMessage": "with pre-written summaries and responsibilities",
+          "applyMessage": "and apply to jobs anywhere",
           "Courses": "Courses",
           "Company": "Company",
           "Career Advice": "Career Advice",
@@ -44,15 +128,139 @@ i18n
             "Hiring Company": "Hiring Company",
             "We are a leading recruitment agency in the UK and Ireland.": "We are a leading recruitment agency in the UK and Ireland.",
             "Apply Job": "Apply Job",
-            "Companies that are Hiring": "Companies that are Hiring"
-      
+            "Companies that are Hiring": "Companies that are Hiring",
+            "jobRecommendation": "Here are some jobs you might like. We've based them on your previous search.",
+            browseJobs: "Browse Jobs",
+            trendingJobs: "Trending Jobs",
+            moreIndustries: "More Industries",
+            jobs: [
+              "Business Development Manager Jobs",
+              "Document Controller Jobs",
+              "Electrical Improver Jobs",
+              "General Labourer Jobs",
+              "Office Administrator Jobs",
+              "Painter Jobs",
+              "Plumber Jobs",
+              "Setting Out Engineer Jobs",
+              "Site Supervisor Jobs",
+              "Steel Fixer Jobs",
+              "Telehandler Jobs",
+              "Traffic Marshall Jobs",
+              "Van Driver Jobs",
+              "Banking Jobs",
+              "Charity & Volunteer Jobs",
+              "Consulting Jobs",
+              "E-commerce Jobs",
+              "Finance Jobs",
+              "Legal Jobs",
+              "Managerial Jobs",
+              "Media Jobs",
+              "Multilingual Jobs",
+              "Procurement Jobs",
+              "Public Sector Jobs",
+              "Science Jobs",
+              "Seasonal Jobs",
+              "Security & Emergency Jobs"
+            ]
 
         }
       },
       "ps": {
         "translation": {
           "S": "ښه راغلاست",
+          "job_alerts": {
+            "title": "د کار خبرداریو سره هیڅ مهم فرصت مه غولوئ",
+            "description": "په خپل کاري لټون کې مخکې اوسئ او تل یقین ولرئ چې تاسو د نوو پاڼو په اړه لومړی خبر شوي یاست.",
+            "search_info": "له 10,117 شرکتونو څخه 152,981 دندې پلټل",
+            "already_registered": "له مخه ثبت شوي یاست؟",
+            "view_alerts": "خپل د کار خبرداریو کتل",
+            "form": {
+              "title": "د کار خبرداري جوړول",
+              "keywords": "کلیدي کلمې/د دندې عنوان",
+              "location": "موقعیت",
+              "email": "بریښنا لیک",
+              "placeholder": {
+                "keywords": "لکه Administrator",
+                "location": "لکه London",
+                "email": "your@email.com"
+              },
+              "submit_button": "د کار خبرداري جوړول",
+              "agreement": "د CV-Library سره د کار خبرداري جوړولو له لارې تاسو موږ د حریمیت پالیسۍ او شرایطو او ضوابطو سره موافقه کوئ"
+            },
+            "video_section": {
+              "title": "د CV-Library پر بنسټ ګمارونکي شرکتونه"
+            },
+            "reasons": {
+              "title": "ولې د کار خبرداري جوړول؟",
+              "reason1": {
+                "title": "خپل دندې په پرده بریښنالیک ته لیږل",
+                "description": "د خپل معیار سره برابر تازه دندو څخه خبر اوسئ."
+              },
+              "reason2": {
+                "title": "لومړی درخواست ورکړل",
+                "description": "له نورو وړاندیز کونکو مخکې اوسئ او لومړی کار وکړئ."
+              },
+              "reason3": {
+                "title": "ژر او اسانه جوړول",
+                "description": "د کار خبرداري جوړول تر یوې دقیقې کمه وخت نیسي."
+              },
+              "reason4": {
+                "title": "تر 20 خبرداریو پورې جوړول",
+                "description": "د خپلو غوښتنو سره برابر متعدد خبرداریو جوړول."
+              }
+            }
+          
+        },
+          "faq": {
+            "title": "د CV جوړونې عامې پوښتنې",
+            "freeUsage": "آیا زه کولی شم د CV جوړونکي لپاره وړیا استفاده وکړم؟",
+            "freeUsageAnswer": "د CV جوړونکی ۱۰۰٪ د ټولو کاروونکو لپاره وړیا دی. یوازې  ته لاړ شئ او نن ورځ پیل کړئ.",
+            "mobileUsage": "آیا زه کولی شم خپل CV له خپل سمارټ فون څخه جوړ کړم؟",
+            "mobileUsageAnswer": "هو، تاسو کولی شئ د CV جوړونکی له هرې وسیلې، لکه کمپیوټر، لپ‌ټاپ، ټابلیټ یا سمارټ فون څخه وکاروئ.",
+            "cvDelivery": "زما CV څنګه راته لیږل کیږي؟",
+            "cvDeliveryAnswer": "کله چې تاسو ټول جزئیات اضافه کړئ او له خپل CV سره خوشحاله شئ، موږ به ستاسو د ایمیل آدرس غوښتنه وکړو او ستاسو CV به څو دقیقو کې تاسو ته ایمیل شي.",
+            "cvFormat": "زما CV په کوم شکل کې وي؟",
+            "cvFormatAnswer": "ستاسو CV به تاسو ته د PDF په توګه ایمیل شي.",
+            "editCV": "زه څنګه کولی شم خپل CV ویرایش کړم؟",
+            "editCVAnswer": "کله چې تاسو خپل CV بشپړ کړئ، موږ به په اوتومات ډول ستاسو لپاره یو CV-Library حساب جوړ کړو او ستاسو د ننېدو جزئیات به تاسو ته ایمیل شي. یوازې ننوځئ او هر وخت خپل CV ویرایش کړئ. که تاسو دمخه یو CV-Library حساب لرئ، نو ستاسو نوې CV به ورته اضافه شي ترڅو هر وخت ویرایش شي.",
+            "deleteCV": "آیا زه کولی شم خپل CV حذف کړم؟",
+            "deleteCVAnswer": "هو، کله چې تاسو خپل مطلوبه کار ومومئ، ممکن تاسو وغواړئ خپل CV حذف کړئ. تاسو کولی شئ دا د کلیک کولو سره او بیا د خپل CV-Library حساب ته ننوځئ. بیا به له تاسو څخه غوښتنه وشي چې د حذف کولو تایید لپاره خپل رمز بیا داخل کړئ."
+          },
+          "Build your CV and start applying for 158,016 jobs today!":"خپل CV جوړ کړئ او نن د 158,016 دندو لپاره غوښتنلیک پیل کړئ!",
+          " I've used many CV building sites, but this one is simple, clear and understandable.":"I've used many CV building sites, but this one is simple, clear and understandable.",
           "Register": "راجستر کول",
+          "Find out why job seekers love CV Builder...":"ومومئ چې ولې دندې غوښتونکي د CV جوړونکي سره مینه لري ...",
+          
+            "textfirst": "\"ما د CV جوړولو ډیری ویب پاڼې کارولې، مګر دا یوه ساده، روښانه او قابل فهم ده.\""
+         ,
+         "Create Your free cv":"خپل وړیا Cv جوړ کړئ",
+         "advice": {
+          "seekingAdvice": "د کار غوښتنې په اړه مشورې غواړئ؟",
+          "helpfulTips": "زموږ ګټورې لارښوونې او مشورې ولولئ",
+          "profileWriting": "څنګه کولی شئ خپل شخصي پروفایل د CV لپاره ولیکئ په ۲۰۲۲ کې",
+          "cvLyingDangers": "د CV کې دروغ ویل خطرناک دي",
+          "cvRejectionTips": "د CV رد کولو سره د مقابلې ۶ مؤثرې لارې",
+          "hobbiesInterests": "کوم شوقونه او دلچسپۍ باید په CV کې شامل کړم؟"
+        },
+            "textsecond": "\"CV جوړونکی ما ته د مسلکي ټکو نظر راکوي چې ممکنه ګمارونکی یې لټوي.\""
+         ,
+          
+            "textthird": "\"CV جوړونکی عالي دی! دا واقعا د دې لپاره عالي دی چې کله تاسو نه پوهیږئ چې څه ووایاست یا د CV لیکلو په اړه د فشار او خفګان احساس کوئ.\""
+         ,
+          
+            "textfourth": "\"CV جوړونکی د هغه وخت لپاره عالي دی کله چې تاسو نه پوهیږئ له کومه ځایه پیل کړئ او مرستې ته اړتیا لرئ. تاسو ډاډه یاست چې یو مسلکي CV به ترلاسه کړئ پرته له دې چې له صفر څخه پیل وکړئ.\"",
+         
+          " Search 156,089 jobs from 10,070 companies":"د 10،070 شرکتونو څخه 156،089 دندې وپلټئ",
+          "Need a CV? Create your own on the go and start applying to jobs in minutes.":"سی وی ته اړتیا لرئ؟ په لاره کې خپل ځان جوړ کړئ او په څو دقیقو کې دندې ته غوښتنلیک پیل کړئ.",
+          " Free CV Builder":"وړیا CV جوړونکی",
+          " Build my CV":"زما سی وی جوړ کړئ",
+          "buildCV": "خپل CV جوړ کړئ",
+          "customizeCV": "خپل CV تنظیم کړئ",
+          "previewCV": "خپل CV مخکتنه",
+          "downloadCV": "خپل CV ښکته کړئ",
+          "mobileMessage": "په موبایل، ټابلیټ یا ډیسکتاپ وسیله کې",
+          "customizeMessage": "د مخکې لیکل شویو لنډیزونو او مسئولیتونو سره",
+          "applyMessage": "او هرچیرې دندې ته غوښتنه وکړئ",
           "Recruiting": "د استخدام",
           "Search Job": "د کار پلټنه",
           "CV Builder": "د CV جوړونکی",
@@ -118,6 +326,7 @@ i18n
   "Job Alerts": "دندې خبرتیاوې",
   "Career Advice": "مسلکي مشوره",
   "Salary Guide": "د معاش لارښود",
+  "jobRecommendation": "دلته ځینې دندې دي چې تاسو ته ښایي. موږ دا ستاسو د تیرې پلټنې پراساس جوړ کړي.",
   "Popular": "مشهور",
   "Search Jobs": "دندې ولټوئ",
   "Employers": "کارفرمایان",
@@ -139,13 +348,160 @@ i18n
   "Company Logo": "د شرکت لوگو",
   "Company Name": "لوی لالا",
   "Online jobs": "آنلاین دندې",
-  "All rights reserved.": "ټولې حقوق محفوظ دي."
+  "All rights reserved.": "ټولې حقوق محفوظ دي.",
+  "jobTitle": "د کار عنوان یا کلیدي کلمه",
+  "addLocation": "هیواد یا ښار اضافه کړئ",
+  "minSalary": "کمه تنخواه",
+  "maxSalary": "زیاته تنخواه",
+  "jobType": "دندې ډول",
+  "salaryType": "تنخوا ډول",
+  "postedIn": "په کې خپور شو",
+  "searchByIndustry": "د صنعت له مخې پلټنه",
+  "sortBy": "ترتیب",
+  "search": "پلټنه",
+  "moreOptions": "نورې اختیارونه",
+  "lessOptions": "کم اختیارونه",
+  "fullTime": "د بشپړه وخت",
+  "partTime": "جزوي وخت",
+  "contract": "قرارداد",
+  "hourly": "ساعتي",
+  "annual": "سالی",
+  "last10Days": "تیره 10 ورځې",
+  "last20Days": "تیره 20 ورځې",
+  "last30Days": "تیره 30 ورځې",
+  "relevance": "اړیکه",
+  "datePosted": "نیټه خپره شوه",
+  "salary": "تنخواه",
+  "companyName": "د شرکت نوم",
+  "Popular Industries":"مشهور صنعتونه",
+
+  browseJobs: "د کارونو کتنه",
+          trendingJobs: "مخکښ کارونه",
+          moreIndustries: "نور صنعتونه",
+          jobs: [
+            "د سوداګرۍ پراختیا مدیر کارونه",
+            "د اسنادو کنټرولر کارونه",
+            "برقیمه کارونه",
+            "عمومي کارګر کارونه",
+            "د دفتر اداره کونکی کارونه",
+            "رنګګر کارونه",
+            "پلمبر کارونه",
+            "د ترتیب انجینر کارونه",
+            "د سایټ ناظر کارونه",
+            "د فولادو فکسر کارونه",
+            "د تیلی هینډلر کارونه",
+            "د ترافیک مارشال کارونه",
+            "د ون ډرایور کارونه",
+            "د بانکدارۍ کارونه",
+            "د خیریه او رضاکار کارونه",
+            "مشورتي کارونه",
+            "د ای کامرس کارونه",
+            "مالي کارونه",
+            "قانوني کارونه",
+            "مدیرانه کارونه",
+            "رسانه کارونه",
+            "چند ژبني کارونه",
+            "د تدارکاتو کارونه",
+            "عامه سکتور کارونه",
+            "علمي کارونه",
+            "فصلي کارونه",
+            "د امنیت او بیړني کارونه"
+          ]
+
         }
       },
       "fa": {
         "translation": {
           "S": "خوش آمدید",
-          "Register": "ثبت‌نام",
+          "job_alerts": {
+            "title": "هیچ فرصتی را با هشدارهای شغلی از دست ندهید",
+            "description": "در بالای جست‌وجوی شغلی خود بمانید و همیشه مطمئن باشید که اولین کسی هستید که از نقش‌های جدید مطلع می‌شوید.",
+            "search_info": "جست‌وجوی 152,981 شغل از 10,117 شرکت",
+            "already_registered": "قبلاً ثبت‌نام کرده‌اید؟",
+            "view_alerts": "مشاهده هشدارهای شغلی من",
+            "form": {
+              "title": "ایجاد هشدار شغلی",
+              "keywords": "کلیدواژه‌ها/عنوان شغلی",
+              "location": "موقعیت",
+              "email": "ایمیل",
+              "placeholder": {
+                "keywords": "مثلاً مدیر",
+                "location": "مثلاً لندن",
+                "email": "your@email.com"
+              },
+              "submit_button": "ایجاد هشدار شغلی",
+              "agreement": "با ایجاد هشدار شغلی با CV-Library، شما با سیاست حریم خصوصی و شرایط و ضوابط ما موافقت می‌کنید"
+            },
+            "video_section": {
+              "title": "شرکت‌های بزرگ استخدام‌کننده در CV-Library"
+            },
+            "reasons": {
+              "title": "چرا هشدارهای شغلی تنظیم کنید؟",
+              "reason1": {
+                "title": "دریافت شغل‌ها مستقیماً در صندوق ورودی ایمیل شما",
+                "description": "با آخرین شغل‌های مطابق با معیارهای خود به روز بمانید."
+              },
+              "reason2": {
+                "title": "اولین فرد درخواست‌دهنده باشید",
+                "description": "از رقابت پیشی بگیرید و اولین فرد درخواست‌دهنده برای شغل‌ها باشید."
+              },
+              "reason3": {
+                "title": "تنظیم سریع و آسان",
+                "description": "کمتر از یک دقیقه طول می‌کشد تا هشدار شغلی ایجاد کنید."
+              },
+              "reason4": {
+                "title": "ایجاد تا 20 هشدار",
+                "description": "چندین هشدار ایجاد کنید تا شغل‌های مورد نظر خود را دریافت کنید."
+              }
+            }
+          },
+          "faq": {
+            "title": "سوالات متداول در مورد سازنده CV",
+            "freeUsage": "آیا می‌توانم از سازنده CV به صورت رایگان استفاده کنم؟",
+            "freeUsageAnswer": "سازنده CV ۱۰۰٪ برای تمام کاربران رایگان است. فقط به  مراجعه کنید و امروز شروع کنید.",
+            "mobileUsage": "آیا می‌توانم CV خود را از گوشی هوشمند بسازم؟",
+            "mobileUsageAnswer": "بله، می‌توانید از هر دستگاهی از جمله کامپیوتر، لپ‌تاپ، تبلت یا گوشی هوشمند استفاده کنید.",
+            "cvDelivery": "CV من چگونه به من ارسال می‌شود؟",
+            "cvDeliveryAnswer": "پس از وارد کردن تمام جزئیات و رضایت از CV خود، از شما خواهیم خواست که آدرس ایمیل خود را وارد کنید و CV شما در عرض چند دقیقه به ایمیل شما ارسال خواهد شد.",
+            "cvFormat": "CV من در چه فرمت خواهد بود؟",
+            "cvFormatAnswer": "CV شما به عنوان PDF به شما ارسال می‌شود.",
+            "editCV": "چگونه می‌توانم CV خود را ویرایش کنم؟",
+            "editCVAnswer": "پس از تکمیل CV خود، ما به طور خودکار یک حساب CV-Library برای شما ایجاد خواهیم کرد و جزئیات ورود شما به ایمیل شما ارسال می‌شود. به سادگی وارد شوید و هر زمان که بخواهید CV خود را ویرایش کنید. اگر قبلاً یک حساب CV-Library دارید، CV جدید شما به آن اضافه می‌شود تا هر زمان که بخواهید ویرایش کنید.",
+            "deleteCV": "آیا می‌توانم CV خود را حذف کنم؟",
+            "deleteCVAnswer": "بله، پس از پیدا کردن شغل ایده‌آل خود، ممکن است بخواهید CV خود را حذف کنید. می‌توانید با کلیک بر روی  و سپس ورود به حساب CV-Library خود این کار را انجام دهید. از شما خواسته می‌شود تا برای تأیید حذف، دوباره رمز عبور خود را وارد کنید."
+          },
+          "Build your CV and start applying for 158,016 jobs today!":"CV خود را بسازید و امروز شروع به درخواست برای 158,016 وظیفه کنید!",
+            "textfirst": "\"من از بسیاری از سایت‌های ساخت CV استفاده کرده‌ام، اما این یکی ساده، واضح و قابل فهم است.\""
+          ,
+          "Find out why job seekers love CV Builder...":"دریابید که چرا جویندگان کار CV Builder را دوست دارند...",
+            "textsecond": "\"سازنده CV به من ایده‌ای از واژه‌های حرفه‌ای که کارفرمای بالقوه به دنبال آن است می‌دهد.\""
+          ,
+          
+            "textthird": "\"سازنده CV عالی است! واقعاً وقتی که نمی‌دانید چه بگویید یا احساس فشار و استرس درباره نوشتن CV دارید، عالی است.\""
+          ,
+          "advice": {
+            "seekingAdvice": "آیا به مشاوره در مورد درخواست شغل نیاز دارید؟",
+            "helpfulTips": "حتماً نکات و مشاوره‌های مفید ما را بخوانید",
+            "profileWriting": "چگونه می‌توانید پروفایل شخصی خود را برای CV در سال ۲۰۲۲ بنویسید",
+            "cvLyingDangers": "خطرات دروغ گفتن در CV",
+            "cvRejectionTips": "۶ راه مؤثر برای مقابله با رد شدن CV",
+            "hobbiesInterests": "چه سرگرمی‌ها و علایقی باید در CV من اضافه شوند؟"
+          },
+          "Create Your free cv":"سی وی رایگان خود را ایجاد کنید",
+            "textfourth": "\"سازنده CV برای زمانی که نمی‌دانید از کجا شروع کنید و به کمک نیاز دارید، عالی است. شما مطمئن هستید که یک CV حرفه‌ای بدون شروع از صفر دریافت خواهید کرد.\""
+          
+          ," Search 156,089 jobs from 10,070 companies":"جستجو 156089 شغل از 10070 شرکت",
+          "Need a CV? Create your own on the go and start applying to jobs in minutes.":"به یک سی وی نیاز دارید؟ ایجاد خود را در رفتن و شروع به درخواست به شغل در عرض چند دقیقه.",
+          " Free CV Builder":"رایگان ساز سی وی",
+          "buildCV": "رزومه خود را بسازید",
+          "customizeCV": "رزومه خود را سفارشی کنید",
+          "previewCV": "پیش‌نمایش رزومه",
+          "downloadCV": "رزومه خود را دانلود کنید",
+          "mobileMessage": "بر روی موبایل، تبلت یا دسکتاپ",
+          "customizeMessage": "با خلاصه‌ها و مسئولیت‌های از پیش نوشته شده",
+          "applyMessage": "و در هر جایی برای کار درخواست دهید",
+          " Build my CV":"ساخت سی وی من",
+          "Register": "ثبت‌نام", 
           "Recruiting": "استخدام",
           "Search Job": "جستجوی شغل",
           "CV Builder": "ساخت رزومه",
@@ -233,7 +589,65 @@ i18n
             "Company Logo": "لوگوی شرکت",
             "Company Name": "لوی لالا",
             "Online jobs": "شغل‌های آنلاین",
-            "All rights reserved.": "تمام حقوق محفوظ است."
+            "All rights reserved.": "تمام حقوق محفوظ است.",
+            jobTitle: "عنوان شغل یا کلمه کلیدی",
+            addLocation: "کشور یا شهر اضافه کنید",
+            minSalary: "حداقل حقوق",
+            maxSalary: "حداکثر حقوق",
+            jobType: "نوع شغل",
+            salaryType: "نوع حقوق",
+            postedIn: "منتشر شده در",
+            searchByIndustry: "جستجو بر اساس صنعت",
+            sortBy: "مرتب‌سازی بر اساس",
+            search: "جستجو",
+            moreOptions: "گزینه‌های بیشتر",
+            lessOptions: "گزینه‌های کمتر",
+            "fullTime": "تمام وقت",
+            "partTime": "نیمه وقت",
+            "contract": "قرارداد",
+            "hourly": "ساعتی",
+            "annual": "سالی",
+            "last10Days": "10 روز گذشته",
+            "last20Days": "20 روز گذشته",
+            "last30Days": "30 روز گذشته",
+            "relevance": "ارتباط",
+            "datePosted": "تاریخ نشر",
+            "salary": "حقوق",
+            "companyName": "نام شرکت",
+            
+  "jobRecommendation": "اینجا برخی از مشاغل است که ممکن است شما را خوش بیاید. ما آنها را بر اساس جستجوی قبلی شما تنظیم کرده‌ایم.",
+  browseJobs: "مرور شغل‌ها",
+  trendingJobs: "شغل‌های پرطرفدار",
+  moreIndustries: "صنایع بیشتر",
+  jobs: [
+    "مدیر توسعه کسب و کار",
+    "کارشناس کنترل مستندات",
+    "کارشناس برق",
+    "کارگر عمومی",
+    "مدیر دفتر",
+    "نقاش",
+    "لوله‌کش",
+    "مهندس تنظیمات",
+    "ناظر سایت",
+    "کارشناس فولاد",
+    "کارشناس بالابر",
+    "ناظر ترافیک",
+    "راننده ون",
+    "شغل‌های بانکی",
+    "شغل‌های خیریه و داوطلبانه",
+    "مشاوره",
+    "شغل‌های تجارت الکترونیک",
+    "شغل‌های مالی",
+    "شغل‌های حقوقی",
+    "شغل‌های مدیریتی",
+    "شغل‌های رسانه‌ای",
+    "شغل‌های چند زبانه",
+    "شغل‌های تأمین کالا",
+    "شغل‌های بخش عمومی",
+    "شغل‌های علمی",
+    "شغل‌های فصلی",
+    "شغل‌های امنیتی و اضطراری"
+  ]
           
 
 
